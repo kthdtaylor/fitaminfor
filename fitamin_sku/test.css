@@ -1,0 +1,102 @@
+body {
+		margin:0;
+		padding:0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        overflow: scroll;
+    }
+
+	.inner_body{
+        display: flex;
+		text-align: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .menu_container {
+        background-color: #fff;
+        border-bottom-width: 100%;
+        padding: 20px;
+        margin: 5%;
+    }
+
+    .menu_header {
+	    margin: 0 0 5% 0;
+    }
+
+	.menu_list {
+		width: 100%;
+	}
+
+    .menu_button_area {
+	    width: 100%;
+    }
+
+	.menu_list ul li {
+		list-style: none;
+		float:left;
+		display: grid;
+        width: 23%;
+        margin: 0.5%;
+        padding: 2%;
+        box-sizing: border-box;
+		flex-wrap: wrap;
+		box-shadow: 0 2px 4px rgba(0,0,0,0), 0 4px 6px rgba(0,0,0,0.15);
+  		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    }
+
+
+	.menu_list ul li:hover {
+  		box-shadow: 0 15px 30px rgba(0,0,0,0.0), 0 12px 9px rgba(0,0,0,0.24);
+	}
+
+    .menu_button_area ul {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+    
+    .menu_button_area {
+        margin: 20px 0;
+    }
+
+    .menu_button_area ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu_button_area ul li {
+        list-style: none;
+        margin: 0 5px 15px;
+    }
+
+    .menu_button_area ul li button {
+        background-color: transparent;
+        border: none;
+        background: #e8e8e8;
+		color: #555;
+		font-weight: 400;
+        padding: 10px 30px;
+        border-radius: 100px;
+    }
+
+    .menu_button_area ul li button:hover {
+        background-color: transparent;
+        border: none;
+        background: #f3f3f3;
+		color: #01CF78;
+		font-weight: 600;
+        padding: 10px 30px;
+        border-radius: 100px;
+    }
+
+    .menu_button_area ul li button.active {
+        background: #01CF78;
+        color: #fff;
+		font-weight: 600;
+    }
