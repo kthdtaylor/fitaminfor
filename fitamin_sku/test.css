@@ -68,8 +68,8 @@ p{
 		flex-wrap: wrap;
 		box-shadow: 0 2px 4px rgba(0,0,0,0), 0 4px 6px rgba(0,0,0,0.15);
   		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+		
     }
-
 
 	.menu_list ul li:hover {
   		box-shadow: 0 15px 30px rgba(0,0,0,0.0), 0 12px 9px rgba(0,0,0,0.24);
@@ -123,3 +123,30 @@ p{
         color: #fff;
 		font-weight: 600;
     }
+
+	@media screen and (max-width: 720px) {
+ 	   .menu_list ul li {
+ 	 	list-style: none;
+		float:left;
+		display: flex;
+		justify-content: center;
+        width: 45%;
+        margin: 1%;
+        padding: 2%;
+        box-sizing: border-box;
+		flex-wrap: wrap;
+		box-shadow: 0 2px 4px rgba(0,0,0,0), 0 4px 6px rgba(0,0,0,0.15);
+  		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	}
+		
+		.menu_button_area ul li button {
+        background-color: transparent;
+        border: none;
+        background: #e8e8e8;
+		color: #555;
+		font-weight: 400;
+        padding: 5px 10px;
+        border-radius: 50px;
+    }  
+		
+  }
