@@ -16,6 +16,13 @@ h1{
   font-size : 70px;
 }
 
+	
+h2{
+  text-decoration-color : black;
+  text-decoration-line: none;
+}
+	
+
 p{
   text-align : center;
   line-height : 100vh;
