@@ -23,7 +23,8 @@ p{
 }
 
 a{
-text-decoration-style: none;
+  text-decoration-color : black;
+  text-decoration-line: none;
 }
 
 	#goingTop {
