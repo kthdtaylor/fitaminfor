@@ -119,7 +119,7 @@ a{
 }
 
 .bg{
-  background : url("sku_img/sku/test03.png") no-repeat center;
+  background : url("sku_img/sku/sku_bg.png") no-repeat center;
   background-size : cover;
   background-attachment : fixed;
 }
